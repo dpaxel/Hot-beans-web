@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Message Sent Confirmation">
+    <meta name="keywords" content="confirmation, message sent">
+    <meta name="author" content="Hot Beans Web">
+    <title>Message Sent - Hot Beans Web</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to your main stylesheet -->
+    <style>
+        /* General Body Styling */
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            overflow: hidden;
+            position: relative;
+        }
+
+        /* Background Decorative Pattern */
+        .background-pattern {
+            background: url('https://www.toptal.com/designers/subtlepatterns/patterns/diagonal_stripes.png') repeat;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            opacity: 0.1;
+            z-index: 1;
+        }
+
+        /* Message Box Styling */
+        #message-sent {
+            background-color: #ffffff;
+            padding: 50px;
+            border-radius: 15px;
+            box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+            width: 80%;
+            max-width: 600px;
+            text-align: center;
+            position: relative;
+            z-index: 2;
+            border: 3px solid #4CAF50;
+        }
+
+        /* Decorative Elements */
+        #message-sent::before {
+            content: "";
+            position: absolute;
+            top: -30px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 60px;
+            height: 6px;
+            background-color: #4CAF50;
+            border-radius: 10px;
+        }
+
+        #message-sent::after {
+            content: "";
+            position: absolute;
+            bottom: -30px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 60px;
+            height: 6px;
+            background-color: #4CAF50;
+            border-radius: 10px;
+        }
+
+        /* Heading Styling */
+        h1 {
+            font-size: 2.8rem;
+            color: #4CAF50;
+            margin-bottom: 20px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        /* Paragraph Styling */
+        p {
+            font-size: 1.2rem;
+            color: #333;
+            margin-bottom: 30px;
+        }
+
+        /* Call-to-Action Button Styling */
+        .cta-button {
+            background-color: #4CAF50;
+            color: #fff;
+            padding: 18px 35px;
+            text-decoration: none;
+            font-size: 1.2rem;
+            border-radius: 5px;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .cta-button:hover {
+            background-color: #45a049;
+            transform: scale(1.05);
+        }
+
+        /* Footer Styling */
+        footer {
+            position: fixed;
+            bottom: 20px;
+            width: 100%;
+            text-align: center;
+            background-color: #333;
+            padding: 15px 0;
+            font-size: 1rem;
+            z-index: 2;
+        }
+
+        footer p {
+            margin: 0;
+            color: #fff;
+            font-weight: 500;
+        }
+
+        /* Gradient Background */
+        .gradient-background {
+            background: linear-gradient(135deg, #4CAF50, #45a049);
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -2;
+            opacity: 0.3;
+        }
+
+    </style>
+</head>
+	</head>
+<body>
+    <header style="display: flex; flex-direction: row;">
+        <nav style=width: 80%;>
+            <ul>
+             
+				
+            </ul>
+        </nav>
+		
+		<img src="Pictures!/hot bean web log.PNG" style="height: 150px; width: 150px;">
+		
+		
+		
+    </header>
+<body>
+    <!-- Background Pattern -->
+    <div class="background-pattern"></div>
+
+    <!-- Gradient Background -->
+    <div class="gradient-background"></div>
+
+    <!-- Message Sent Content -->
+    <section id="message-sent">
+        <h1>Message Sent!</h1>
+        <p>Thank you for reaching out to us. We have received your message and will get back to you shortly.</p>
+        <a href="index.html" class="cta-button">Go Back to Home</a>
+    </section>
+
+    <!-- Footer with White Text -->
+    <footer>
+        <p>&copy; 2025 Hot Beans Web. All rights reserved.</p>
+    </footer>
+</body>
+</html>

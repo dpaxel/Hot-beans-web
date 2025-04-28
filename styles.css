@@ -1,0 +1,189 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+h1, h2, h3 {
+    color: #333;
+}
+
+/* Header Styles */
+header {
+    background-color: #2c3e50;
+    color: #fff;
+    padding: 20px 0;
+}
+
+header .container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    font-size: 2em;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+header nav ul li {
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1em;
+}
+
+header nav ul li a:hover {
+    color: #18bc9c;
+}
+
+/* Home Section */
+#home {
+    background-color: #18bc9c;
+    color: white;
+    padding: 80px 20px;
+    text-align: center;
+}
+
+#home .container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#home h2 {
+    font-size: 3em;
+}
+
+#home p {
+    font-size: 1.2em;
+    margin: 20px 0;
+}
+
+.cta-button {
+    background-color: #fff;
+    color: #18bc9c;
+    padding: 15px 30px;
+    font-size: 1.1em;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.cta-button:hover {
+    background-color: #fff;
+    color: #2c3e50;
+}
+
+/* About Section */
+#about {
+    padding: 60px 20px;
+    background-color: #fff;
+    text-align: center;
+}
+
+#about p {
+    font-size: 1.1em;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Tutorials Section */
+#tutorials {
+    background-color: #f4f4f4;
+    padding: 60px 20px;
+}
+
+#tutorials h2 {
+    text-align: center;
+    font-size: 2.5em;
+}
+
+.tutorial-list {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.tutorial {
+    background-color: white;
+    padding: 20px;
+    width: 30%;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.tutorial h3 {
+    font-size: 1.5em;
+}
+
+.tutorial a {
+    text-decoration: none;
+    color: #18bc9c;
+    font-weight: bold;
+}
+
+.tutorial a:hover {
+    color: #2c3e50;
+}
+
+/* Contact Section */
+#contact {
+    padding: 60px 20px;
+    background-color: #fff;
+    text-align: center;
+}
+
+#contact form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+#contact input, #contact textarea {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1em;
+}
+
+#contact button {
+    background-color: #18bc9c;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1em;
+    cursor: pointer;
+}
+
+#contact button:hover {
+    background-color: #2c3e50;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #2c3e50;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
